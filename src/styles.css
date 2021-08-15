@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4ef5d1;
+}
+
+.timer {
+  text-align: center;
+  perspective: 600px;
+  margin: 50px auto;
+}
+
+.field {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: inline-block;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.flip-card {
+  display: block;
+  position: relative;
+  font-size: 2.25rem;
+  line-height: 0.95;
+}
+
+.value {
+  display: block;
+  height: 60px;
+  width: 80px;
+  color: #fff;
+  background: #00816a;
+  padding: 0.6em 0.4em 0.4em;
+  border-radius: 0.15em 0.15em;
+  font-size: 2.25rem;
+  font-weight: 700;
+  transform-style: preserve-3d;
+}
