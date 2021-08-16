@@ -28,7 +28,6 @@ class CountdownTimer {
         clearInterval(timerId);
       }
     }, 1000);
-    console.log(currentDeltaTime);
   };
   init() {
     this.timerCalc();
@@ -46,6 +45,6 @@ class CountdownTimer {
 }
 const timerOne = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('August 16, 2021'),
+  targetDate: new Date('Jul 17, 2019'),
 });
 timerOne.init();
